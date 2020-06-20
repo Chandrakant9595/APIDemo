@@ -8,7 +8,7 @@ import java.util.Properties;
 public class TestBase {
 
 	public static int responseStatusCode_200 = 200;
-	
+	public static int responseStatusCode_201 = 201;
 	
 	public static Properties prop;
 	

@@ -20,12 +20,11 @@ public class GETAPITest extends TestBase{
 
 	TestBase testBase;
 	RestClient restClient;
+	CloseableHttpResponse httpsResponse;
 	
 	String serviceURL;
 	String appURL;
 	String url;
-	
-	CloseableHttpResponse httpsResponse;
 	
 	public GETAPITest() throws IOException {
 		super();
